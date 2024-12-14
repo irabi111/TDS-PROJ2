@@ -8,7 +8,7 @@ import chardet
 
 # Constants
 API_URL = "https://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
-AIPROXY_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIxZjIwMDA3MTdAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.UHtZdrZSgVu3gNw3pF1EOZkzFRSSy81XSqk8cMx0rh4"
+AIPROXY_TOKEN = ""
 
 def load_data(file_path):
     """Load CSV data with encoding detection."""
