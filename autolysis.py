@@ -70,6 +70,8 @@ def main(file_path):
         f.write(narrative)
 
 if __name__ == "__main__":
-    # Replace with the actual path to your dataset
-    file_path = ""  # Update this path
-    main(file_path)
+    import sys
+    if len(sys.argv) < 2:
+        print("Usage: uv run autolysis.py <dataset_path>")
+        sys.exit(1)
+    main(sys.argv[1])
