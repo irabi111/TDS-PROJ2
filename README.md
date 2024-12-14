@@ -7,8 +7,8 @@ Features---
 - **Data Visualizations**: Creates a variety of visualizations, such as correlation heatmaps and distribution plots, and saves them as PNG files for easy sharing and reporting.  
 - **Narrative Generation**: Leverages OpenAI's API to produce human-readable narratives that simplify complex analysis results, making the data more accessible and understandable.
 
-- Datasets Analyzed
-- 
+Datasets Analyzed--
+  
 - The tool has been utilized across various datasets to showcase its capabilities:  
 
 - **Goodreads Dataset**:  
